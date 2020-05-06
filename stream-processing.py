@@ -8,10 +8,7 @@ from pyspark.streaming import StreamingContext
 from pyspark.streaming.kafka import KafkaUtils
 
 
-"""
-.sh : spark-submit --jars spark-streaming-kafka-0-8-assembly_2.11-2.4.5.jar stream-processing.py
 
-"""
 logger_format = '%(asctime)-15s %(message)s'
 logging.basicConfig(format=logger_format)
 logger = logging.getLogger('stream-processing')
